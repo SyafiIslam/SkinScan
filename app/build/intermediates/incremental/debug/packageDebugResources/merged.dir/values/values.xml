@@ -8,5 +8,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SkinScan</string>
+    <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="register">Register</string>
     <style name="Theme.SkinScan" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>
