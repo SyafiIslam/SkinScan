@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.syafi.skinscan.R
@@ -29,13 +30,14 @@ import com.syafi.skinscan.util.Route
 import kotlinx.coroutines.delay
 
 @Composable
-fun SplashScreen(navController: NavController) {
+fun SplashScreen(navController: NavController, viewModel: SplashViewModel= hiltViewModel()) {
 
     val alpha = remember {
         Animatable(0f)
     }
 
     LaunchedEffect(key1 = true) {
+        viewModel.checkIsCompleted()
         alpha.animateTo(
             1f,
             animationSpec = tween(
@@ -44,7 +46,8 @@ fun SplashScreen(navController: NavController) {
             )
         )
         delay(Constant.SPLASH_DURATION)
-        navController.navigate(Route.WELCOME_SCREEN)
+        navController.popBackStack()
+        navController.navigate(viewModel.destination.value)
     }
 
     Column(

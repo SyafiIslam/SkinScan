@@ -15,6 +15,7 @@
     <uses-permission android:name="com.syafi.skinscan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="com.syafi.skinscan.SkinScan"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -28,7 +29,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.SkinScan" >
         <activity
-            android:name="com.syafi.skinscan.MainActivity"
+            android:name="com.syafi.skinscan.features.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SkinScan" >

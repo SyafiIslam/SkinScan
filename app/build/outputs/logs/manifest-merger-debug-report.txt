@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.valentinilk.shimmer:compose-shimmer:1.0.5] C:\Users\USER\.gradle\caches\transforms-4\e2b401b76ed54592c90c9296005b21ee\transformed\compose-shimmer-1.0.5\AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\USER\.gradle\caches\transforms-4\f30ba66e11ec4c98b714eb4c91308b2c\transformed\coil-compose-2.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] C:\Users\USER\.gradle\caches\transforms-4\192e1d6085b4b232351a1c522c6005ba\transformed\hilt-navigation-compose-1.1.0\AndroidManifest.xml:2:1-7:12
@@ -93,8 +93,8 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.48] C:\Users\USER\.gradle\cache
 	xmlns:android
 		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\USER\.gradle\caches\transforms-4\7ecbecbe6df0e7a7c650e2f383a0bf4f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\USER\.gradle\caches\transforms-4\7ecbecbe6df0e7a7c650e2f383a0bf4f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\USER\.gradle\caches\transforms-4\d7226c9536d1e6699c15190d00c6ad99\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:22:5-26:19
@@ -118,43 +118,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\USER\.gradle\cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\transforms-4\8bbaf6e6fb9203321e6827778772555e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:13:9-46
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:14:9-46
 	android:dataExtractionRules
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.syafi.skinscan.MainActivity
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:15:9-25:20
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:6:9-33
+activity#com.syafi.skinscan.features.MainActivity
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:16:9-26:20
 	android:label
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:19:13-45
 	android:exported
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:19:13-50
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:20:13-50
 	android:name
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:17:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\USER\OneDrive\Documents\Bangkit\Capstone\dev\SkinScan-dev\app\src\main\AndroidManifest.xml
