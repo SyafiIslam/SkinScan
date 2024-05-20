@@ -4,5 +4,5 @@ import kotlinx.coroutines.flow.Flow
 
 interface IUserRepository {
 
-    suspend fun setUserSession(token: String, isCompleted: Boolean)
+    suspend fun setUserSession(isCompleted: Boolean)
 }

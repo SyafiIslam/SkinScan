@@ -1,5 +1,6 @@
 package com.syafi.skinscan.features.splash
 
+import android.util.Log
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
@@ -37,7 +38,6 @@ fun SplashScreen(navController: NavController, viewModel: SplashViewModel= hiltV
     }
 
     LaunchedEffect(key1 = true) {
-        viewModel.checkIsCompleted()
         alpha.animateTo(
             1f,
             animationSpec = tween(
@@ -47,6 +47,7 @@ fun SplashScreen(navController: NavController, viewModel: SplashViewModel= hiltV
         )
         delay(Constant.SPLASH_DURATION)
         navController.popBackStack()
+        Log.i("lok", viewModel.destination.value)
         navController.navigate(viewModel.destination.value)
     }
 

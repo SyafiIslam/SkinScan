@@ -7,14 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import com.syafi.skinscan.features.component.CustomScaffold
 import com.syafi.skinscan.features.navigation.Navigation
-import com.syafi.skinscan.ui.theme.Primary500
-import com.syafi.skinscan.ui.theme.Type
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

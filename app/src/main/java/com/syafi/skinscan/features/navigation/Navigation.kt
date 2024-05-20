@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.syafi.skinscan.features.login.LoginScreen
+import com.syafi.skinscan.features.register.RegisterScreen
 import com.syafi.skinscan.features.splash.SplashScreen
 import com.syafi.skinscan.features.welcome.WelcomeScreen
 import com.syafi.skinscan.util.Route
@@ -20,7 +21,10 @@ fun Navigation(navController: NavHostController) {
             WelcomeScreen(navController)
         }
         composable(Route.LOGIN_SCREEN) {
-            LoginScreen()
+            LoginScreen(navController)
+        }
+        composable(Route.REGISTER_SCREEN) {
+            RegisterScreen(navController)
         }
     }
 }

@@ -30,9 +30,8 @@ class UserSessionData(context: Context) {
             pref[userTokenKey] ?: ""
         }
 
-    suspend fun setUserSession(token: String, isCompleted: Boolean) {
+    suspend fun setIsComplete(isCompleted: Boolean) {
         dataStore.edit { pref ->
-            pref[userTokenKey] = token
             pref[welcomeScreenCompletedKey] = isCompleted
         }
     }

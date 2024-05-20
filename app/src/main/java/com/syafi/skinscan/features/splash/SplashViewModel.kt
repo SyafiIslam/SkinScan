@@ -18,7 +18,7 @@ class SplashViewModel @Inject constructor(
     private val _destination= mutableStateOf(Route.WELCOME_SCREEN)
     val destination: State<String> = _destination
 
-    fun checkIsCompleted() {
+    init {
         viewModelScope.launch {
             pref.isWelcomeScreenCompleted.collect { isCompleted ->
                 if (isCompleted) {

@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_launcher_background
 color purple_200
 color purple_500
 color purple_700
@@ -10,6 +11,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logo
+drawable img_buble
 drawable img_welcome1
 drawable img_welcome2
 drawable img_welcome3
@@ -20,9 +22,18 @@ font poppins_semibold
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string confirm_password
+string dont_have_account
+string email
+string have_account
 string login
+string login_greeting
+string name
 string next
+string password
 string register
+string register_greeting
+string welcome
 style Theme.SkinScan
 xml backup_rules
 xml data_extraction_rules

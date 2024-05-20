@@ -12,9 +12,9 @@ class WelcomeScreenViewModel @Inject constructor(
     private val setSessionUseCase: SetUserSessionUseCase
 ): ViewModel() {
 
-    fun setUserSession(token: String, isCompleted: Boolean) {
+    fun setUserSession(isCompleted: Boolean) {
         viewModelScope.launch {
-            setSessionUseCase.invoke(token, isCompleted)
+            setSessionUseCase.invoke(isCompleted)
         }
     }
 }

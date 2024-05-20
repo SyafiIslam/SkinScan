@@ -6,7 +6,7 @@ import javax.inject.Inject
 class SetUserSessionUseCase @Inject constructor(
     private val repo: UserRepository
 ) {
-    suspend operator fun invoke(token: String, isCompleted: Boolean) {
-        repo.setUserSession(token, isCompleted)
+    suspend operator fun invoke(isCompleted: Boolean) {
+        repo.setUserSession(isCompleted)
     }
 }

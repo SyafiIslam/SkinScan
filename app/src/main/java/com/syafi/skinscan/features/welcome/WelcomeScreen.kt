@@ -37,7 +37,8 @@ import kotlinx.coroutines.launch
 @Composable
 fun WelcomeScreen(
     navController: NavController,
-    viewModel: WelcomeScreenViewModel= hiltViewModel()) {
+    viewModel: WelcomeScreenViewModel = hiltViewModel()
+) {
 
     val pagerState = rememberPagerState(pageCount = { welcomeScreenDataList.size })
     val scope = rememberCoroutineScope()
@@ -67,14 +68,19 @@ fun WelcomeScreen(
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 CustomOutlinedButton(
-                    onClick = { /*TODO*/ },
+                    onClick = {
+                        viewModel.setUserSession(true)
+                        navController.popBackStack()
+                        navController.navigate(Route.REGISTER_SCREEN)
+                    },
                     type = ButtonType.MEDIUM,
                     text = stringResource(R.string.register),
                     Modifier.fillMaxWidth(.5f)
                 )
                 CustomButton(
                     onClick = {
-                        viewModel.setUserSession("token", true)
+                        viewModel.setUserSession(true)
+                        navController.popBackStack()
                         navController.navigate(Route.LOGIN_SCREEN)
                     },
                     type = ButtonType.MEDIUM,

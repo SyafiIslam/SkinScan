@@ -6,7 +6,7 @@ import com.syafi.skinscan.domain.repository.IUserRepository
 class UserRepository(
     private val pref: UserSessionData
 ): IUserRepository {
-    override suspend fun setUserSession(token: String, isCompleted: Boolean) {
-        pref.setUserSession(token, isCompleted)
+    override suspend fun setUserSession(isCompleted: Boolean) {
+        pref.setIsComplete(isCompleted)
     }
 }
